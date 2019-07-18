@@ -16,10 +16,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        nameLabel.text = nil
+        hobbiesLabel.text = nil
+    }
+
+    
+    @IBAction func introduceYourselfTapped(_ sender: Any) {
         nameLabel.text = "John Kouris"
         hobbiesLabel.text = "Video Games, Guitar, Weight Lifting"
     }
-
-
+    
 }
 
